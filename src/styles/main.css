@@ -4,7 +4,7 @@ input[type='text'] {
   border: none;
   outline: none;
   background-color: #c4e0f9;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-bottom: 20px;
   text-align: right;
   padding: 20px;
@@ -17,7 +17,7 @@ input[type='text'] {
   -ms-grid-columns: (auto)[4];
       grid-template-columns: repeat(4, auto);
   grid-auto-rows: minmax(75px, auto);
-  grid-column-gap: 20px;
+  grid-column-gap: 10px;
   grid-row-gap: 20px;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -41,7 +41,7 @@ input[type='text'] {
       -ms-flex-pack: center;
           justify-content: center;
   border: none;
-  border-radius: 50%;
+  border-radius: 10px;
   font-weight: 800;
 }
 
@@ -72,6 +72,10 @@ input[type='text'] {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
 }
 
 .container {

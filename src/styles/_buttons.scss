@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-auto-rows: minmax(75px, auto);
-  grid-column-gap: 20px;
+  grid-column-gap: 10px;
   grid-row-gap: 20px;
   align-content: center;
   justify-content: space-between;
@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: center;
   border: none;
-  border-radius: 50%;
+  border-radius: 10px;
   font-weight: 800;
 }
 

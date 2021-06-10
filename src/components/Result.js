@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Result = ({ result }) => {
-  return <input type="text" value={result} placeholder="0" />;
+  return (
+    <form>
+      <input type="text" placeholder="0" defaultValue={result} />
+    </form>
+  );
 };
 
 export default Result;

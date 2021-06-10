@@ -1,12 +1,21 @@
 import React from 'react';
 
-const Buttons = ({ handleClick, handleClear }) => {
+const Buttons = ({
+  handleClick,
+  handleClear,
+  handleBackspace,
+  handleCalculate,
+}) => {
   return (
     <div className="buttons">
       <button value="clear" className="btn highlight" onClick={handleClear}>
         C
       </button>
-      <button value="backspace" className="btn highlight">
+      <button
+        value="backspace"
+        className="btn highlight"
+        onClick={handleBackspace}
+      >
         Delete
       </button>
       <button value="/" className="btn highlight">
@@ -58,7 +67,7 @@ const Buttons = ({ handleClick, handleClear }) => {
       <button value="." className="btn" onClick={handleClick}>
         .
       </button>
-      <button value="=" className="btn highlight" onClick={handleClick}>
+      <button value="=" className="btn highlight" onClick={handleCalculate}>
         =
       </button>
     </div>
